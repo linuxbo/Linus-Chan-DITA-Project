@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="tediting">
+    <title>Editing source code using comment tags</title>
+    <shortdesc>Quick introduction to editing code with comment tags</shortdesc>
+    <prolog>
+        
+        <author type="creator">Linus Chan</author>
+        <copyright>
+            <copyryear year="2015"/>
+            <copyrholder>Linus</copyrholder>
+        </copyright>
+        
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Only edit HTML blocks when you know the website can run without it</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Isolate the HTML code that you wish to edit out</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Space it out properly to ensure that you don't have messy code</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Make sure that your replacement is already there.</cmd>
+                    </substep>
+                    
+                </substeps>
+                
+            </step>
+            <step>
+                <cmd>Add the comment tag around the code that you wish to edit out</cmd>
+                <info><note conref="c_introduction.dita#cintro/mean"/>
+                    <image href="http://i.imgur.com/q3aRlL3.png"
+                        id=""/></info>
+                    <image href="http://i.imgur.com/4wTsgnn.png">
+            <step>
+              <cmd>The code should be either grayed out or highlighted, depending on your text editor </cmd>
+              </step>
+            </step>
+            <step>
+              <cmd>
+                From your computer, you should be able to compile the code and see that the information that you commented out is now missing
+              </cmd>
+            </step>
+            <step>
+              <cmd>
+                Disabling code is important. It helps you find errors in your code by process of elimination.
+              </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
