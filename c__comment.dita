@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
+<concept id="intro">
+  <title>Comments; an element within HTML source code</title>
+  <shortdesc>Elements within HTML source code are used by the author to manipulate their writing. The comment element enables the author to write important notes or bylines that are relevant to the topic itself.  </shortdesc>
+  <prolog>
+    
+    <author type="creator">Linus Chan</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>Linus</copyrholder>
+    </copyright>
+    
+  </prolog>
+  <conbody>
+    <p>The comment element enables the author to manipulate their code. The comment element in HTML is created by the using the &#60;!--->, /&#60;----> It is used to edit and describe documents. This element is commonly found in programs written in a community of people. </p>
+	<p>This XML document will instruct you on how the comment element is utilized.</p>
+	<p> The following illustration shows how the comment element looks within source code as well as the how it appears in the output code. </p>
+	
+    <image href="http://i.imgur.com/q3aRlL3.png" id=""/>
+    <image href="http://i.imgur.com/4wTsgnn.png" id=""/>
+    <note id="extra">Comment tags have a lot of history, if you want to learn more, go to linuxbo.github.io </note>
+  </conbody>
+</concept>
